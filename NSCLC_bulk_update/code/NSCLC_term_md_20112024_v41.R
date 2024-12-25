@@ -307,7 +307,7 @@ term_md_test <- designModelTermMetadata(
   "dm://p01_io_nsclc:ccm:41", #ccm_fit, #"dm://p01_io_nsclc:ccm:19", 
   # target_terms = model_metadata_final,
   group_level_variables = 'gd://p01_nsclc_v41@1_DCJGBvsF4YqBWipNhegjHg-DfxW99sQ2OVT0qTGXxY',
-  group_level_variables_column = "comparison_levels_test",
+  group_level_variables_column = "comparison_levels",
   validate = FALSE
   # subset = TRUE, # will keep terms that are in model_metadata_final
   # flag_invalid_terms = FALSE # will not filter out invalid terms (for investigation)
